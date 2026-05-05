@@ -12,25 +12,25 @@ const pkg = JSON.parse(fs.readFileSync('./package.json', 'utf-8'))
 const moduleCache = new NodeCache({ stdTTL: 300 });
 
 global.owner = [
-  ['393780306700', '𝕯𝖊ⱥ𝖉𝖑𝐲', true],
-  ['393780560229', 'Luxifer', true],
-  ['639350468907', 'bonzino', true],
-  ['393780087063', 'bonzino²', true],
+  ['393501989497', 'モれ刀ﾘ', true],
+  ['212612624296', 'Zak', true],
+  ['212693877842', 'Medalis', true],
+  ['393514593662', 'alessia', true],
 ]
 global.mods = ['xxxxxxxxxx', 'xxxxxxxxxx']
 global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx']
 
-global.nomebot   = '𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓'
-global.nomepack  = '𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓'
-global.wm        = '𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓'
-global.autore    = '𝕯𝖊ⱥ𝖉𝖑𝐲'
-global.dev       = '𝕯𝖊ⱥ𝖉𝖑𝐲'
+global.nomebot   = '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮'
+global.nomepack  = '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮'
+global.wm        = '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮'
+global.autore    = 'モれ刀ﾘ'
+global.dev       = 'モれ刀ﾘ'
 global.versione  = pkg.version
-global.testobot  = `AXION-CORE-V${pkg.version}`
+global.testobot  = `ZEYNO-CORE-V${pkg.version}`
 global.errore    = '⚠️ *[SYSTEM ERROR]* Usa `.segnala` per inviare il log allo staff.'
 
-global.repobot   = 'https://github.com/axion-bot/axion-bot'
-global.canale    = 'https://whatsapp.com/channel/0029Vb8MQ3U1CYoMEtU1832d'
+global.repobot   = 'https://github.com/Endyakazeyno/zeyno-bot-Md.git'
+global.canale    = 'https://whatsapp.com/channel/0029VbBsqvyF1YlXIC2zUh1N'
 
 global.cheerio   = cheerio
 global.fs        = fs
