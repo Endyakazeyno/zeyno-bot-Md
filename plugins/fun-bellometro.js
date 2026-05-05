@@ -134,7 +134,7 @@ async function generateImage({ title, percentage, avatarUrl, description, themeC
 
   ctx.globalAlpha = 0.7
   ctx.font = 'bold 22px Sans'
-  ctx.fillText('AXION BOT', w / 2, 940)
+  ctx.fillText('ZEYNO BOT', w / 2, 940)
   ctx.globalAlpha = 1
 
   return canvas.toBuffer('image/jpeg')
