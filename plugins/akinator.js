@@ -4,7 +4,7 @@ import axios from 'axios'
 const sessions = new Map()
 const processing = new Set()
 
-const FOOTER = '𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓'
+const FOOTER = '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮'
 const TIMEOUT = 5 * 60 * 1000
 const GROQ_API_KEY = process.env.GROQ_API_KEY
 
