@@ -46,7 +46,7 @@ let handler = async (m, { conn, text }) => {
         info += `📞 **Telefono:** ${data.business_phone_number || 'Non pubblico'}\n`
         if (data.external_url) info += `🔗 **Link:** ${data.external_url}\n`
         
-        info += `\n> Powered by 𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓`
+        info += `\n> Powered by 𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮`
 
         await conn.sendMessage(m.chat, { 
             image: { url: data.profile_pic_url_hd }, 
