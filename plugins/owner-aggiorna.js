@@ -93,7 +93,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
 ${truncate(item.stack, 3000)}
 \`\`\`
 
-> 𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓`
+> 𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮`
 
     return conn.reply(m.chat, fullMsg, m)
   }
@@ -180,7 +180,7 @@ ${truncate(item.stack, 3000)}
       resultMsg += `\n\n✅ *𝐁𝐚𝐜𝐤𝐮𝐩 𝐃𝐁 𝐞𝐬𝐞𝐠𝐮𝐢𝐭𝐨 𝐜𝐨𝐫𝐫𝐞𝐭𝐭𝐚𝐦𝐞𝐧𝐭𝐞*`
     }
 
-    resultMsg += `\n\n> 𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓`
+    resultMsg += `\n\n> 𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮`
 
     await conn.reply(m.chat, truncate(resultMsg), m)
 
@@ -250,7 +250,7 @@ ${truncate(item.stack, 3000)}
   } catch (err) {
     await conn.reply(
       m.chat,
-      `*❌ 𝐄𝐫𝐫𝐨𝐫𝐞 𝐝𝐮𝐫𝐚𝐧𝐭𝐞 𝐚𝐠𝐠𝐢𝐨𝐫𝐧𝐚𝐦𝐞𝐧𝐭𝐨:*\n\n${err.message}\n\n> 𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓`,
+      `*❌ 𝐄𝐫𝐫𝐨𝐫𝐞 𝐝𝐮𝐫𝐚𝐧𝐭𝐞 𝐚𝐠𝐠𝐢𝐨𝐫𝐧𝐚𝐦𝐞𝐧𝐭𝐨:*\n\n${err.message}\n\n> 𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮`,
       m
     )
     await m.react('❌')
