@@ -11,7 +11,7 @@ try {
   sharpOk = false
 }
 
-const TEMPLATE_PATH = './media/flame.png'
+const TEMPLATE_PATH = './media/image-9.png'
 const FALLBACK_AVATAR = 'https://i.ibb.co/2kR7x9J/avatar.png'
 
 const LEFT_SLOT = { x: 91, y: 272, size: 500 }
