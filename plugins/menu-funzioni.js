@@ -29,7 +29,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   }
 
   const text = `╭━━━━━━━⚙️━━━━━━━╮
-*✦ 𝐀𝐗𝐈𝐎𝐍 𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐈 ✦*
+*✦ 𝚭𝚵𝚼𝚴𝚰 𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐈 ✦*
 ╰━━━━━━━⚙️━━━━━━━╯
 
 *🛡️ 𝐒𝐢𝐜𝐮𝐫𝐞𝐳𝐳𝐚*
@@ -57,12 +57,12 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 *──────────────*
 
-*🟢 𝐀𝐭𝐭𝐢𝐯𝐚:* *${usedPrefix}1 <funzione>*
-*⚪ 𝐃𝐢𝐬𝐚𝐭𝐭𝐢𝐯𝐚:* *${usedPrefix}0 <funzione>*`
+*🟢 𝐀𝐭𝐭𝐢𝐯𝐚:* *${usedPrefix}active <funzione>*
+*⚪ 𝐃𝐢𝐬𝐚𝐭𝐭𝐢𝐯𝐚:* *${usedPrefix}disactive <funzione>*`
 
 await conn.sendMessage(m.chat, {
   text,
-  footer: '𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓',
+  footer: '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮',
   buttons: [
     {
       buttonId: `${usedPrefix}menu`,
@@ -77,7 +77,7 @@ await conn.sendMessage(m.chat, {
     ...(global.rcanal?.contextInfo || {}),
     ...(thumbnail ? {
       externalAdReply: {
-        title: '𝐀𝐗𝐈𝐎𝐍 𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐈',
+        title: '𝚭𝚵𝚼𝚴𝚰 𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐈',
         body: 'Stato moduli del sistema',
         thumbnail,
         mediaType: 1,
