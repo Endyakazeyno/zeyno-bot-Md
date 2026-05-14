@@ -1,5 +1,5 @@
 let handler = async (m, { conn }) => {
-    let staff = `*⋆｡˚✦『 𝐒𝐓𝐀𝐅𝐅 𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓 』✦˚｡⋆*
+    let staff = `*⋆｡˚✦『 𝐒𝐓𝐀𝐅𝐅 𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮` 』✦˚｡⋆*
 
 *╭───────────────╮*
 *│ 🤖 𝐁𝐨𝐭:* ${global.nomebot}
