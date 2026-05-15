@@ -1,88 +1,82 @@
-let handler = async (m, { conn }) => {
-    let staff = `*⋆｡˚✦『 𝐒𝐓𝐀𝐅𝐅 𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮` 』✦˚｡⋆*
+let handler = async (m, { conn, command, usedPrefix }) => {
+    let staff = `
+⋆｡˚✦『 𝐒𝐓𝐀𝐅𝐅 ZΞYNΩ BΩT 』✦˚｡⋆
 
-*╭───────────────╮*
-*│ 🤖 𝐁𝐨𝐭:* ${global.nomebot}
-*│ 🆚 𝐕𝐞𝐫𝐬𝐢𝐨𝐧𝐞:* ${global.versione}
-*╰───────────────╯*
+╭───────────────╮
+│ 🤖 Bot: ${global.nomebot}
+│ 🆚 Versione: ${global.versione}
+╰───────────────╯
 
-*╭─── 👑 𝐂𝐑𝐄𝐀𝐓𝐎𝐑𝐄 ───╮*
-*│ ✦ 𝐍𝐨𝐦𝐞:* Endy
-*│ ✦ 𝐑𝐮𝐨𝐥𝐨:* Creatore / Developer
-*│ ✦ 𝐂𝐨𝐧𝐭𝐚𝐭𝐭𝐨:* @393501989497
-*╰────────────────────╯*
+╭─── 👑 *_CREATORE_* ───╮
+│ ✦ Nome: Endy
+│ ✦ Ruolo: Creatore / Dev
+│ ✦ Contatto: @393501989497
+╰────────────────────╯
 
-*╭─── 🔱 𝐂𝐎-𝐎𝐖𝐍𝐄𝐑 ───╮*
-*│ ✦ Medalis*
-*│   ├ 𝐑𝐮𝐨𝐥𝐨:* Co-Owner/ Lead Developer
-*│   └ 𝐂𝐨𝐧𝐭𝐚𝐭𝐭𝐨:* @212693877842
-*╰────────────────────╯*
+╭─── 🛡️ *_STAFF_* ───╮
+│ ✦ Zak
+│   ├ Ruolo: *Staffer*
+│   └ Contatto: @393894321332
+│
+│ ✦ Medalis
+│   ├ Ruolo: *Staffer*
+│   └ Contatto: @212693877842
+╰────────────────────╯
 
-*╭─── 🛡️ 𝐒𝐓𝐀𝐅𝐅 ───╮*
-*│ ✦ zak*
-*│   ├ 𝐑𝐮𝐨𝐥𝐨:* Staffer
-*│   └ 𝐂𝐨𝐧𝐭𝐚𝐭𝐭𝐨:* @212612624296
-*╰────────────────────╯*
+╭─── 📌 INFO UTILI ───╮
+│ ✦ GitHub: github.com/Endyakazeyno 
+│ ✦ Supporto: @573217871395
+╰────────────────────╯
 
-*╭─── 📌 𝐈𝐍𝐅𝐎 𝐔𝐓𝐈𝐋𝐈 ───╮*
-*│ ✦ 𝐆𝐢𝐭𝐇𝐮𝐛:* github.com/zeyno-bot-Md
-*│ ✦ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐨:* @212614898801
-*╰────────────────────╯*
-
-> *𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮*`
+⋆｡˚✦ ZΞYNΩ BΩT ✦˚｡⋆`;
 
     await conn.reply(
-        m.chat,
-        staff.trim(),
-        m,
-        {
+        m.chat, 
+        staff.trim(), 
+        m, 
+        { 
             contextInfo: {
-                mentionedJid: [
-                    '393501989497@s.whatsapp.net',
-                    '212693877842@s.whatsapp.net',
-                    '212612624296@s.whatsapp.net',
-                    '212614898801@s.whatsapp.net'
-                ]
+                mentionedJid: ['393501989497@s.whatsapp.net', '212693877842@s.whatsapp.net', '393894321332@s.whatsapp.net']
             }
         }
-    )
+    );
 
     await conn.sendMessage(m.chat, {
         contacts: {
             contacts: [
                 {
                     vcard: `BEGIN:VCARD
-VERSION:5.0
+VERSION:3.0
 FN:Endy
-ORG:𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮 - Creatore / Dev
-TEL;type=CELL;type=VOICE;waid=393780306700:393780306700
+ORG:ZΞYNΩ BΩT - Creatore
+TEL;type=CELL;type=VOICE;waid=393501989497:+393501989497
 END:VCARD`
                 },
                 {
                     vcard: `BEGIN:VCARD
-VERSION:5.0
-FN: Medalis 
-ORG:𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮 - Co-Owner
-TEL;type=CELL;type=VOICE;waid=212693877842:+212693877842
-END:VCARD`
-                },
-                {
-                    vcard: `BEGIN:VCARD
-VERSION:5.0
+VERSION:3.0
 FN:Zak
-ORG:𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮 - Staffer
-TEL;type=CELL;type=VOICE;waid=212612624296:+212612624296
+ORG:ZΞYNΩ BΩT - Staffer
+TEL;type=CELL;type=VOICE;waid=39 3894321332:+393894321332
+END:VCARD`
+                },
+                {
+                    vcard: `BEGIN:VCARD
+VERSION:3.0
+FN:Bonzino
+ORG:ZΞYNΩ BΩT - Staffer
+TEL;type=CELL;type=VOICE;waid=212 693877842:+212693877842
 END:VCARD`
                 }
             ]
         }
-    }, { quoted: m })
+    }, { quoted: m });
 
-    m.react('👑')
-}
+    m.react('👑');
+};
 
-handler.help = ['staff']
-handler.tags = ['main']
-handler.command = ['staff', 'moderatori', 'collaboratori']
+handler.help = ['staff'];
+handler.tags = ['main'];
+handler.command = ['staff', 'moderatori', 'collaboratori'];
 
-export default handler
+export default handler;
