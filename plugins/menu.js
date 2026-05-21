@@ -8,7 +8,7 @@ const handler = async (message, { conn, usedPrefix = '.' }) => {
     const totalUsers = Object.keys(global.db?.data?.users || {}).length;
 
     const menuBody = `
-『 𝚫𝐗𝐈𝐎𝐍 • 𝐈𝐍𝐅𝐎 』
+『 𝛧𝚵𝐘𝐍𝐎 • 𝐈𝐍𝐅𝐎 』
 ╼━━━━━━━━━━━━━━╾
   ◈ *ᴜsᴇʀ:* @${userId.split('@')[0]}
   ◈ *ᴜᴘᴛɪᴍᴇ:* ${uptimeStr}
@@ -31,7 +31,7 @@ const buttons = [
 ];
 
     await conn.sendMessage(message.chat, {
-        image: { url: './media/main-menu.jpeg' },
+        image: { url: './media/image-27.jpg' },
         caption: menuBody,
         footer: 'sᴇʟᴇᴢɪᴏɴᴀ ᴜɴ ᴍᴏᴅᴜʟᴏ ᴅᴀʟʟ\'ɪɴᴛᴇʀғᴀᴄᴄɪᴀ',
         buttons: buttons,
