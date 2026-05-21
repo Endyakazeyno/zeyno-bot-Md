@@ -1,95 +1,107 @@
-# 🌀 𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓 🌀
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=50&pause=1000&color=BC13FE&center=true&vCenter=true&width=700&height=120&lines=💜+ZEYNO-BOT+💜;THE+BEST+ZOZZAP+BOT;CREATED+BY+ENDY" alt="Typing SVG" />
+</p>
 
-> **Un bot WhatsApp di nuova generazione: veloce, modulare e progettato per l'efficienza e il divertimento.**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</p>
 
----
+<p align="center">
+  <a href="https://whatsapp.com/channel/0029VbBsqvyF1YlXIC2zUh1N">
+    <img src="https://img.shields.io/badge/CANALE_WHATSAPP-UNISCITI_ORA-00E5FF?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Canale WhatsApp" />
+  </a>
+</p>
 
-<div align="center">  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFFF&center=true&vCenter=true&width=435&lines=𝛥𝐗𝐈𝚶𝐍+𝐒𝐘𝐒𝐓𝐄𝐌+𝐀𝐂𝐓𝐈𝐕𝐀𝐓𝐄𝐃;Powered+by+𝕯𝖊ⱥ𝖉𝖑𝐲;WhatsApp+Multi-Device+Bot" alt="Typing SVG" />
-</div>
-
----
-
-### 👑 Owner & Developer
-Il progetto è curato e gestito con dedizione da:
-
-| Icona | Ruolo | Nome |
-| :---: | :--- | :--- |
-| 👤 | **Founder & Lead Dev** | `𝕯𝖊ⱥ𝖉𝖑𝐲` |
-| 🛡️ | **Staff & Security** | `𝐒𝐭𝐚𝐟𝐟 𝛥𝐗𝐈𝚶𝐍` |
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=800&color=000080&center=true&vCenter=true&width=600&height=60&lines=STATUS:+ONLINE+✅;SYSTEM:+STABLE+🚀;OWNER:+ENDY" alt="Status SVG" />
+</p>
 
 ---
 
-### 🚀 Caratteristiche Principali
-* ⚡ **Velocità:** Basato sull'ultima versione di **Baileys** per una risposta istantanea.
-* 🎮 **RPG System:** Gioca, guadagna monete e sali di livello con i tuoi amici.
-* 🛠️ **Strumenti:** Conversione media, ricerca web, traduzioni e utility avanzate.
-* 🛡️ **Sicurezza:** Sistemi anti-spam, gestione gruppi e protezione avanzata.
-* 🧬 **Multi-Device:** Connessione stabile e duratura tramite QR o Pairing Code.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=500&color=BC13FE&center=true&vCenter=true&width=700&height=80&lines=DESCRIZIONE;SPECIFICHE+TECNICHE" alt="Descrizione" />
+</p>
+
+**ZEYNO-BOT** è un ecosistema avanzato per WhatsApp, costruito per garantire la massima potenza e stabilità.
+
+* **Core Ultra-Rapido:** Sviluppato in Node.js (V16+) con architettura asincrona.
+* **Sicurezza:** Algoritmo Anti-Ban 5.0 con rotazione degli header.
+* **Stabilità:** Gestione intelligente dei messaggi per prevenire crash.
 
 ---
 
-### 📥 Metodi di Collegamento
-Copia e incolla i seguenti comandi nel tuo terminale per installare il bot.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=500&color=BC13FE&center=true&vCenter=true&width=700&height=80&lines=GUIDA;INSTALLAZIONE+DETTAGLIATA" alt="Installazione" />
+</p>
 
-#### 📱 COLLEGAMENTO CON TERMUX
-```bash
-termux-setup-storage &&
-pkg update -y && pkg upgrade -y &&
-pkg install -y git nodejs ffmpeg imagemagick &&
-git clone https://github.com/axion-bot/axion-bot-Md.git &&
-cd ~/axion-bot-Md &&
-yarn install &&
-npm start
+### 📱 METODO 1: TERMUX (Android)
+*Apri Termux e incolla questi comandi uno alla volta:*
 
-```
-
-#### 🖥️ COLLEGAMENTO CON LINUX
-```bash
-sudo apt update && sudo apt upgrade -y && \
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && \
-sudo apt install -y nodejs git ffmpeg imagemagick yarn && \
-git clone https://github.com/axion-bot/axion-bot-Md.git ~/axion-bot && \
-cd ~/axion-bot && \
-yarn install || npm install && \
-npm start
-
-```
-
-#### ♻️ ELIMINA SESSIONI 
-```bash
-cd ~/axion-bot
-rm -rf session
-npm start
-
-```
-
-⚙️ Configurazione
-
-Una volta installato il bot su termux potrai personalizzare:
-
-Numero Owner: Inserisci il tuo numero per ottenere i permessi.
-
-Prefissi: Personalizza il simbolo dei comandi (es: ., !, /,).
-
-
+1.  **Preparazione:** 
+    ```bash
+    pkg update && pkg upgrade -y
+    pkg install git nodejs -y
+    ```
+2.  **Clone del Bot:**
+    ```bash
+    git clone [https://github.com/Endyakazeyno/zeyno561.git](https://github.com/Endyakazeyno/zeyno561.git)
+    cd zeyno561
+    ```
+3.  **Avvio:**
+    ```bash
+    npm install
+    npm start
+    ```
 
 ---
 
-🤝 Contatti & Supporto
+### 💻 METODO 2: VPS (Linux/Ubuntu)
+*Per chi vuole il bot attivo 24 ore su 24.*
 
-Se hai bisogno di assistenza o vuoi collaborare al progetto:
-
-👤 Proprietario: 𝕯𝖊ⱥ𝖉𝖑𝐲
-
-📢 Canale Ufficiale: https://whatsapp.com/channel/0029Vb8MQ3U1CYoMEtU1832d
-
-
+1.  **Installazione Core:** Assicurati di avere Node.js e Git sulla VPS.
+2.  **Persistenza con PM2:**
+    ```bash
+    npm install -g pm2
+    pm2 start index.js --name "endy-bot"
+    pm2 save
+    pm2 startup
+    ```
+3.  **Monitoraggio:** Usa `pm2 logs Endy-bot` per visualizzare il QR Code e i log.
 
 ---
 
-<div align="center">  
-  <p>Prodotto con ❤️ dal team di 𝛥𝐗𝐈𝚶𝐍</p>  
-  <img src="https://img.shields.io/badge/Status-Active-red?style=for-the-badge" />  
-  <img src="https://img.shields.io/badge/Access-Public -brightgreen?style=for-the-badge" />  
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=500&color=BC13FE&center=true&vCenter=true&width=700&height=80&lines=STATISTICHE;LIVE+REPORT" alt="Analisi" />
+</p>
+
+<p align="center">
+  <img src="https://gpvc.arturio.dev/Endyakazeyno/zeyno561" alt="Views" />
+  <img src="https://img.shields.io/github/forks/Endyakazeyno/zeyno561?style=for-the-badge&label=FORKS&color=red" alt="Forks" />
+  <img src="https://img.shields.io/github/stars/Endyakazeyno/zeyno561?style=for-the-badge&label=STARS&color=yellow" alt="Stars" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Endyakazeyno &repo=zeyno561&theme=blood-dark&title_color=ff0000&icon_color=ff0000" width="100%" alt="Stats" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=500&color=BC13FE&center=true&vCenter=true&width=700&height=80&lines=STAFF;CONTATTI" alt="Staff" />
+</p>
+
+* **Sviluppatore:** Endy 
+* **Supporto WhatsApp:** [+39 350 198 9497](https://wa.me/393501989497)
+* **Community:** [UNISCITI AL GRUPPO ZOZZAP](https://chat.whatsapp.com/FdA61ZKYPB43WOIK6rUs8L?mode=gi_t)
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=2000&color=FF0000&center=true&vCenter=true&width=650&height=60&lines=SUPPORT+BY+GIVING+A+STAR+⭐;THANKS+FOR+USING+ZEYNO-BOT-MD!" alt="Thanks" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</p>
+
+<p align="center">
+  <b>© 2026 ZEYNO-BOT • Sviluppato by Endy</b>
+</p>
