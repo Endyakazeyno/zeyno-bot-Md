@@ -15,7 +15,7 @@ global.owner = [
   ['393501989497', 'モれ刀ﾘ', true],
   ['393894321332', 'Zak', true],
   ['212693877842', 'Medalis', true],
-  ['393514593662', 'alessia', true],
+  ['77787623522', 'near', true],
 ]
 global.mods = ['xxxxxxxxxx', 'xxxxxxxxxx']
 global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx']
